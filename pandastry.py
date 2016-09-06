@@ -9,8 +9,10 @@ fmt = '%d/%m/%Y %H:%M:%S'
 max_humid = 0
 from collections import OrderedDict
 
+#Reference :
 #http://stackoverflow.com/questions/20414562/python-joining-csv-files-where-key-is-first-column-value
 #http://stackoverflow.com/questions/3096953/difference-between-two-time-intervals-in-python
+
 #this will read excel file containing humidity data
 with open('export_cavelab.10.humidity_2016-08-04.csv') as f:
     r = csv.reader(f, delimiter=',')
